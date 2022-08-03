@@ -176,7 +176,7 @@ const ProductsData = [
     info: [
       {
         id: 118,
-        title: "apple macbook-mgn63",
+        title: "samsung lf27ts50fh",
         price: 140000,
         number: 14,
         description:
@@ -185,7 +185,7 @@ const ProductsData = [
       },
       {
         id: 119,
-        title: "apple macbook-mgn63",
+        title: "g-plus ggm l277gn",
         price: 145000,
         number: 12,
         description:
@@ -194,7 +194,7 @@ const ProductsData = [
       },
       {
         id: 120,
-        title: "apple macbook-mgn63",
+        title: "msi pro-mp271p",
         price: 174000,
         number: 10,
         description:
@@ -203,7 +203,7 @@ const ProductsData = [
       },
       {
         id: 121,
-        title: "apple macbook-mgn63",
+        title: "g-plus ggm l276fn",
         price: 96000,
         number: 1,
         description:
@@ -212,7 +212,7 @@ const ProductsData = [
       },
       {
         id: 122,
-        title: "apple macbook-mgn63",
+        title: "msi optix mag237",
         price: 116400,
         number: 0,
         description:
@@ -221,7 +221,7 @@ const ProductsData = [
       },
       {
         id: 123,
-        title: "apple macbook-mgn63",
+        title: "samsung lc27t550fd-m",
         price: 147600,
         number: 0,
         description:
@@ -230,7 +230,7 @@ const ProductsData = [
       },
       {
         id: 124,
-        title: "apple macbook-mgn63",
+        title: "asus vg328h1b",
         price: 132700,
         number: 42,
         description:
@@ -239,7 +239,7 @@ const ProductsData = [
       },
       {
         id: 125,
-        title: "apple macbook-mgn63",
+        title: "lg 27mp400-b",
         price: 127800,
         number: 25,
         description:
@@ -248,7 +248,7 @@ const ProductsData = [
       },
       {
         id: 126,
-        title: "apple macbook-mgn63",
+        title: "asus vg28uql1a",
         price: 119000,
         number: 21,
         description:
