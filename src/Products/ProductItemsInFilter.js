@@ -85,7 +85,9 @@ export default function ProductItemsInFilter({ info }) {
               src={productItem.img}
             />
             <Card.Body>
-              <Card.Title>{productItem.title.toUpperCase()}</Card.Title>
+              <Card.Title style={{ fontSize: 14 }}>
+                {productItem.title.toUpperCase()}
+              </Card.Title>
               <Card.Title className="m-5" style={{ color: "#f0053c" }}>
                 $ {productItem.price}
               </Card.Title>

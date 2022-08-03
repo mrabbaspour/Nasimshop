@@ -34,13 +34,13 @@ export default function Cart() {
   //
   //
   // cart total price :
-  let cartTotalPrice = ContextData.userCart.reduce(
-    (prev, current) =>
-      prev.price
-        ? prev.price * prev.count + current.price * current.count
-        : prev + current.price * current.count,
-    50
-  );
+  let cartTotalPrice = ContextData.userCart.reduce((prev, current) => {
+    if (prev.price) {
+      return prev.price * prev.count + current.price * current.count;
+    } else {
+      return prev + current.price * current.count;
+    }
+  }, 50);
   //
   //
   // add or minus product count :
