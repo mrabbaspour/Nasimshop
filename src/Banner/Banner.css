@@ -1,0 +1,30 @@
+.shop-bg {
+  background: url(../../public/images/slider-item01.jpg) top no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+@media screen and (max-width: 1300px) {
+  .shop-bg {
+    background-size: contain;
+    transform: translateY(10%);
+  }
+}
+@media screen and (max-width: 992px) {
+  .shop-bg {
+    height: 400px;
+    transform: translateY(10%);
+  }
+}
+@media screen and (max-width: 700px) {
+  .shop-bg {
+    height: 400px;
+    transform: translateY(20%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .shop-bg {
+    height: 200px;
+    transform: translateY(30%);
+  }
+}

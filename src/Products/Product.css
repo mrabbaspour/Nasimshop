@@ -1,0 +1,15 @@
+.card-img {
+  transform: scale(0.9);
+}
+.product-items {
+  margin-top: 75px;
+}
+.product-items div {
+  margin: 10px;
+}
+.toast-wrapper {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 500;
+}

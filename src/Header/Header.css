@@ -1,0 +1,11 @@
+.cart-icon {
+  display: inline-block;
+  margin-left: 10px;
+  transform: translateY(-2px);
+}
+.error-search-text {
+  color: #dc3545;
+}
+.error-search-text.found {
+  color: #198754;
+}
