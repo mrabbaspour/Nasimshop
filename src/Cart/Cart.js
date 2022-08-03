@@ -79,7 +79,9 @@ export default function Cart() {
   // get local storage user cart when app refresh :
   useEffect(() => {
     let localStorageData = JSON.parse(localStorage.getItem("userCart"));
-    ContextData.setUserCart(localStorageData);
+    if (localStorageData) {
+      ContextData.setUserCart(localStorageData);
+    }
   }, []);
   //
   //
